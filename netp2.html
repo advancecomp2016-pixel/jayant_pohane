@@ -1,0 +1,160 @@
+
+<html>
+<head>
+    <title>Netflix Clone</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #141414;
+            color: white;
+            font-family: Arial;
+        }
+        header {
+            height: 110px;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 85px;
+        }
+
+        .logo {
+            color: #e50914;
+            font-size: 55px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            margin-left: 35px;
+        }
+
+        nav a:hover {
+            color: #e50914;
+        }
+
+        .search {
+            width: 55%;
+            margin: 65px auto 140px;
+        }
+
+        .search input {
+            width: 100%;
+            height: 75px;
+            padding: 20px;
+            font-size: 25px;
+            border: none;
+            border-radius: 7px;
+            outline: none;
+        }
+
+        .trending {
+            padding: 0 85px;
+        }
+
+        .trending h1 {
+            font-size: 45px;
+            margin-bottom: 35px;
+        }
+
+        .movie-container {
+            display: flex;
+            gap: 28px;
+        }
+
+     .movie-card {
+    width: 25%;
+    height: 200px;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.movie-card p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">NETFLIX</div>
+
+        <nav>
+            <a href="netflixp1.html">Home</a>
+            <a href="netp2.html">Trending</a>
+            <a href="netp3.html">Action</a>
+            <a href="netp4.html">Comedy</a>
+            <a href="netp5.html">Horror</a>
+            <a href="netlogin.html">Login</a>
+
+        </nav>
+
+    </header>
+
+
+    <div class="search">
+        <input type="text" placeholder="Search Movies...">
+    </div>
+
+
+    <section class="trending">
+
+        <h1>Trending Now</h1>
+
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <img src="images (5).jpg" alt="Ikka">
+                <p>Ikka</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="images (7).jpg" alt="Iron Man">
+                <p>Iron Man</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="images (9).jpg" alt="Toxic">
+                <p>Toxic</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="images (8).jpg" alt="Dhurander">
+                <p>Dhurander</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
